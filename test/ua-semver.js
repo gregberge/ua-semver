@@ -50,5 +50,16 @@ describe('UA semver', function () {
 
       expect(result).to.be.false;
     });
+
+    it('should support user agent that are not respecting semver', function () {
+      var firefox = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:27.0) Gecko/20100101 Firefox/27.0';
+
+      var result = ua.satisfies(firefox, {
+        family: 'chrome',
+        version: '>59'
+      });
+
+      expect(result).to.be.false;
+    });
   });
 });
