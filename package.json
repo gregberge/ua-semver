@@ -1,0 +1,37 @@
+{
+  "name": "ua-semver",
+  "version": "0.0.0",
+  "description": "Check user-agent with semver syntax.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neoziro/ua-semver.git"
+  },
+  "keywords": [
+    "user-agent",
+    "semver",
+    "ua",
+    "browser",
+    "bowser"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoziro/ua-semver/issues"
+  },
+  "homepage": "https://github.com/neoziro/ua-semver",
+  "dependencies": {
+    "semver": "^2.2.1",
+    "ua-parser": "^0.3.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
