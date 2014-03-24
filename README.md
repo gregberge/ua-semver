@@ -1,4 +1,4 @@
-# ua-semver
+# ua-semver [![Build Status](https://travis-ci.org/neoziro/ua-semver.svg)](https://travis-ci.org/neoziro/ua-semver)
 
 Check user-agent with semver syntax.
 
