@@ -39,6 +39,31 @@ ua.satisfies(navigator.userAgent, {
 });
 ```
 
+You can specify an Os with the same two attributes family and version.
+
+```js
+ua.satisfies(navigator.userAgent, {
+  family: 'mobile safari',
+  version: '>=6',
+  os: {
+    family: 'ios',
+    version: '>=6'
+  }
+});
+```
+
+In the same way, you can specify a device.
+
+```js
+ua.satisfies(navigator.userAgent, {
+  family: 'mobile safari',
+  version: '>=6',
+  device: {
+    family: 'ipad'
+  }
+});
+```
+
 ## License
 
 MIT
