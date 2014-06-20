@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/neoziro/ua-semver",
   "dependencies": {
-    "semver": "^2.2.1",
+    "semver": "^2.3.1",
     "ua-parser": "^0.3.3"
   },
   "devDependencies": {
