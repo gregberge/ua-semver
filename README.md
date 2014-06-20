@@ -1,4 +1,8 @@
-# ua-semver [![Build Status](https://travis-ci.org/neoziro/ua-semver.svg?branch=master)](https://travis-ci.org/neoziro/ua-semver)
+# ua-semver
+
+[![Build Status](https://travis-ci.org/neoziro/ua-semver.svg?branch=master)](https://travis-ci.org/neoziro/ua-semver)
+[![Dependency Status](https://david-dm.org/neoziro/ua-semver.svg?theme=shields.io)](https://david-dm.org/neoziro/ua-semver)
+[![devDependency Status](https://david-dm.org/neoziro/ua-semver/dev-status.svg?theme=shields.io)](https://david-dm.org/neoziro/ua-semver#info=devDependencies)
 
 Check user-agent with semver syntax.
 
