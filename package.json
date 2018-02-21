@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/neoziro/ua-semver",
   "dependencies": {
-    "semver": "^2.3.1",
+    "semver": "^5.5.0",
     "ua-parser": "^0.3.3"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.18.2"
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
   }
 }
